@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_oNJCAOawEe2BhP4brr73gg" xmi:version="2.0">
+  <contextParameter comment="" name="datalake_application_id" prompt="datalake_application_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0oOawEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="datalake_applicationname" prompt="datalake_applicationname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0oeawEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="fileid" prompt="fileid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0ouawEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="sourcedb_type" prompt="sourcedb_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0o-awEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="sourcedb_databasename" prompt="sourcedb_databasename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0pOawEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="sourcedb_schema" prompt="sourcedb_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0peawEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="sourcedb_tablename" prompt="sourcedb_tablename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0puawEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="sourcedb_warehouse" prompt="sourcedb_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0p-awEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="source_jdbc_url" prompt="source_jdbc_url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0qOawEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="sourcedb_driverclass" prompt="sourcedb_driverclass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0qeawEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="sourcedb_username" prompt="sourcedb_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0quawEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="sourcedb_password" prompt="sourcedb_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0q-awEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="targetsystem" prompt="targetsystem?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_1SB0rOawEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="targetlocation" prompt="targetlocation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ahTusOaxEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="targetfilename" prompt="targetfilename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ahTuseaxEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="targetfileformat" prompt="targetfileformat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ahTusuaxEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="targetfilenamedatepattern" prompt="targetfilenamedatepattern?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ahTus-axEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="targetfiledelimiter" prompt="targetfiledelimiter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ahTutOaxEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="targets3bucket" prompt="targets3bucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ahTuteaxEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="queryfiles3url" prompt="queryfiles3url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ahTutuaxEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="loadtype" prompt="loadtype?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ahTut-axEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="increementalkey" prompt="increementalkey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ahTuuOaxEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="schedule" prompt="schedule?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ahTuueaxEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="SF_LOAD_TS" prompt="SF_LOAD_TS?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value="" xmi:id="_ahTuuuaxEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/talend/datlake_project/DATALAKE_WRAPPER_CONTEXT.txt" xmi:id="_n8sVwOaxEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="ACCESS_KEY" prompt="ACCESS_KEY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_XCksFeazEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="SECRET_KEY" prompt="SECRET_KEY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_XCksFuazEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="OUTPUT_FILE_LOC" prompt="OUTPUT_FILE_LOC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/talend/datlake_project/" xmi:id="_XCksF-azEe2BhP4brr73gg"/>
+  <contextParameter comment="" name="Execution_Id" prompt="Execution_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_F07noObwEe28MONDScUkxQ"/>
+  <contextParameter comment="" name="output_query" prompt="output_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_QQoPYOd9Ee2C5LlEezmBjg"/>
+  <contextParameter comment="" name="SALESFORCE_SECURITYTOKEN" prompt="SALESFORCE_SECURITYTOKEN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_CbZhEOiSEe2hJZdYgzO5Aw"/>
+  <contextParameter comment="" name="Salesforce_userid" prompt="Salesforce_userid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_iBKPEBcPEe6AbfZ9W0BKjg"/>
+  <contextParameter comment="" name="Salesforce_pwd" prompt="Salesforce_pwd?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_iBKPERcPEe6AbfZ9W0BKjg"/>
+  <contextParameter comment="" name="SNOWFLAKE_ACCOUNT" prompt="SNOWFLAKE_ACCOUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_rD3lsBcPEe6AbfZ9W0BKjg"/>
+  <contextParameter comment="" name="SNOWFLAKE_PASSWORD" prompt="SNOWFLAKE_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_rD3lsRcPEe6AbfZ9W0BKjg"/>
+  <contextParameter comment="" name="SNOWFLAKE_SCHEMA" prompt="SNOWFLAKE_SCHEMA?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2CMUcBcPEe6AbfZ9W0BKjg"/>
+  <contextParameter comment="" name="SNOWFLAKE_DATABASE" prompt="SNOWFLAKE_DATABASE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2CMUcRcPEe6AbfZ9W0BKjg"/>
+  <contextParameter comment="" name="SNOWFLAKE_WAREHOUSE" prompt="SNOWFLAKE_WAREHOUSE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2CMUchcPEe6AbfZ9W0BKjg"/>
+  <contextParameter comment="" name="SNOWFLAKE_USERID" prompt="SNOWFLAKE_USERID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jm8EoBcQEe6AbfZ9W0BKjg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_da002260-f546-49ad-a396-ba98089da8cb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jiFGMbGLGQ0msaiglAA2/mZqdqmq6+fC+U87UYM/WWyhFxAT88kXkcGkYjF/oMUnvgtMl/SOsrAh&#13;
+8IJfts6FAw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fea1cbf8-8e76-4642-84ed-26b03caec584"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>21gCQCOPDFLVGJyaP4w3y86uZp7dQn2C/7dljAs0nBgA3ODwbNGEVykhA40E5Q2/U14onoxwP+yi&#13;
++plAeawtQA==</DigestValue></Reference></SignedInfo><SignatureValue>oYJHUCuqM8ZUvlHPTcZSctABExOXZaPV4847/chX/9uS3yxPnPfwoT3XHx008xvM9j21favEHhb6&#13;
+ut83GGXbWrvClpk5pTZ1olCg2jdbhtg5pE8up93vly8Z93Dus2aRTOxx9C/mT86iueFpOwFOMVN2&#13;
+TqIZlgFWFE6HsrZA+yZikaK1N4q/85g01JZWsWau6xWgaIh2catpZPpqekRMeraaybo4yzZZRlnX&#13;
+p003GmJ1+f4rl5bHeGZN2OpjcmfNJgqPyj9TkQs23gIiuBqetk7zR5c+uRUVkVyILMsAYDYbcyzi&#13;
+KiCs9xMJijQLjQvCJLciNL+C5JfqRnTsFGSC9g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fea1cbf8-8e76-4642-84ed-26b03caec584" Target="#_da002260-f546-49ad-a396-ba98089da8cb"><Timestamp>2023-12-13 06:24:40</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>

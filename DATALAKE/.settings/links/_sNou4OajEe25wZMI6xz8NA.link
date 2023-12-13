@@ -1,0 +1,125 @@
+{
+  "itemId" : "_sNou4OajEe25wZMI6xz8NA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_oMorsOawEe2BhP4brr73gg",
+    "parameterList" : [ {
+      "id" : "_1SB0oOawEe2BhP4brr73gg",
+      "name" : "datalake_application_id"
+    }, {
+      "id" : "_1SB0oeawEe2BhP4brr73gg",
+      "name" : "datalake_applicationname"
+    }, {
+      "id" : "_1SB0ouawEe2BhP4brr73gg",
+      "name" : "fileid"
+    }, {
+      "id" : "_1SB0o-awEe2BhP4brr73gg",
+      "name" : "sourcedb_type"
+    }, {
+      "id" : "_1SB0pOawEe2BhP4brr73gg",
+      "name" : "sourcedb_databasename"
+    }, {
+      "id" : "_1SB0peawEe2BhP4brr73gg",
+      "name" : "sourcedb_schema"
+    }, {
+      "id" : "_1SB0puawEe2BhP4brr73gg",
+      "name" : "sourcedb_tablename"
+    }, {
+      "id" : "_1SB0p-awEe2BhP4brr73gg",
+      "name" : "sourcedb_warehouse"
+    }, {
+      "id" : "_1SB0qOawEe2BhP4brr73gg",
+      "name" : "source_jdbc_url"
+    }, {
+      "id" : "_1SB0qeawEe2BhP4brr73gg",
+      "name" : "sourcedb_driverclass"
+    }, {
+      "id" : "_1SB0quawEe2BhP4brr73gg",
+      "name" : "sourcedb_username"
+    }, {
+      "id" : "_1SB0q-awEe2BhP4brr73gg",
+      "name" : "sourcedb_password"
+    }, {
+      "id" : "_1SB0rOawEe2BhP4brr73gg",
+      "name" : "targetsystem"
+    }, {
+      "id" : "_ahTusOaxEe2BhP4brr73gg",
+      "name" : "targetlocation"
+    }, {
+      "id" : "_ahTuseaxEe2BhP4brr73gg",
+      "name" : "targetfilename"
+    }, {
+      "id" : "_ahTusuaxEe2BhP4brr73gg",
+      "name" : "targetfileformat"
+    }, {
+      "id" : "_ahTus-axEe2BhP4brr73gg",
+      "name" : "targetfilenamedatepattern"
+    }, {
+      "id" : "_ahTutOaxEe2BhP4brr73gg",
+      "name" : "targetfiledelimiter"
+    }, {
+      "id" : "_ahTuteaxEe2BhP4brr73gg",
+      "name" : "targets3bucket"
+    }, {
+      "id" : "_ahTutuaxEe2BhP4brr73gg",
+      "name" : "queryfiles3url"
+    }, {
+      "id" : "_ahTut-axEe2BhP4brr73gg",
+      "name" : "loadtype"
+    }, {
+      "id" : "_ahTuuOaxEe2BhP4brr73gg",
+      "name" : "increementalkey"
+    }, {
+      "id" : "_ahTuueaxEe2BhP4brr73gg",
+      "name" : "schedule"
+    }, {
+      "id" : "_ahTuuuaxEe2BhP4brr73gg",
+      "name" : "SF_LOAD_TS"
+    }, {
+      "id" : "_n8sVwOaxEe2BhP4brr73gg",
+      "name" : "Context_File"
+    }, {
+      "id" : "_XCksFeazEe2BhP4brr73gg",
+      "name" : "ACCESS_KEY"
+    }, {
+      "id" : "_XCksFuazEe2BhP4brr73gg",
+      "name" : "SECRET_KEY"
+    }, {
+      "id" : "_XCksF-azEe2BhP4brr73gg",
+      "name" : "OUTPUT_FILE_LOC"
+    }, {
+      "id" : "_F07noObwEe28MONDScUkxQ",
+      "name" : "Execution_Id"
+    }, {
+      "id" : "_QQoPYOd9Ee2C5LlEezmBjg",
+      "name" : "output_query"
+    }, {
+      "id" : "_CbZhEOiSEe2hJZdYgzO5Aw",
+      "name" : "SALESFORCE_SECURITYTOKEN"
+    }, {
+      "id" : "_rD3lsBcPEe6AbfZ9W0BKjg",
+      "name" : "SNOWFLAKE_ACCOUNT"
+    }, {
+      "id" : "_2CMUcRcPEe6AbfZ9W0BKjg",
+      "name" : "SNOWFLAKE_DATABASE"
+    }, {
+      "id" : "_rD3lsRcPEe6AbfZ9W0BKjg",
+      "name" : "SNOWFLAKE_PASSWORD"
+    }, {
+      "id" : "_2CMUcBcPEe6AbfZ9W0BKjg",
+      "name" : "SNOWFLAKE_SCHEMA"
+    }, {
+      "id" : "_jm8EoBcQEe6AbfZ9W0BKjg",
+      "name" : "SNOWFLAKE_USERID"
+    }, {
+      "id" : "_iBKPEBcPEe6AbfZ9W0BKjg",
+      "name" : "Salesforce_userid"
+    }, {
+      "id" : "_2CMUchcPEe6AbfZ9W0BKjg",
+      "name" : "SNOWFLAKE_WAREHOUSE"
+    }, {
+      "id" : "_iBKPERcPEe6AbfZ9W0BKjg",
+      "name" : "Salesforce_pwd"
+    } ]
+  } ]
+}

@@ -1,1 +1,93 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_5--WEOiLEe2hJZdYgzO5Aw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_oMorsOawEe2BhP4brr73gg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_VIuBIEYvEe665Oich5SVoA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_pIMt4EjNEe66TqXgCEdArQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_VIuBIEYvEe665Oich5SVoA - DATALAKE_STATUS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_DHXvcOaTEe2LM8difJFD2w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_oMorsOawEe2BhP4brr73gg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "LOCAL_PROJECT:_5--WEOiLEe2hJZdYgzO5Aw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "LOCAL_PROJECT:_sNou4OajEe25wZMI6xz8NA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_kayoMJjdEe6lKIdv3sMbGg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_owR84BYnEe6uON-zyXIOPQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_sNou4OajEe25wZMI6xz8NA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_oMorsOawEe2BhP4brr73gg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_VIuBIEYvEe665Oich5SVoA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_pxwpQOcaEe2LyME5484HqQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_kayoMJjdEe6lKIdv3sMbGg",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_pxwpQOcaEe2LyME5484HqQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
