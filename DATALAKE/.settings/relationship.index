@@ -180,29 +180,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_g7YYUCgFEe2dANBfp3prIw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_UdvZsCm3Ee2RvPxkBvhWjQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_noIDwPt8EeyQoJZseqjALQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_t9vAoCiPEe2gQIaIobvPFw",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_onoSUCgFEe2dANBfp3prIw",
     "version" : "0.1",
     "type" : "job"
