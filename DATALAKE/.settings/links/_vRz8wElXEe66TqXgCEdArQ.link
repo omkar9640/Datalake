@@ -1,0 +1,66 @@
+{
+  "itemId" : "_vRz8wElXEe66TqXgCEdArQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_73iOsEl5Ee66TqXgCEdArQ",
+    "parameterList" : [ {
+      "id" : "_fSen4El7Ee66TqXgCEdArQ",
+      "name" : "START_TIME"
+    }, {
+      "id" : "_fSen4kl7Ee66TqXgCEdArQ",
+      "name" : "STATUS"
+    }, {
+      "id" : "_fSen4Ul7Ee66TqXgCEdArQ",
+      "name" : "END_TIME"
+    }, {
+      "id" : "_74MWAUl5Ee66TqXgCEdArQ",
+      "name" : "job_id"
+    }, {
+      "id" : "__MEaMEl8Ee66TqXgCEdArQ",
+      "name" : "SOURCE_COUNT"
+    }, {
+      "id" : "__MEaMUl8Ee66TqXgCEdArQ",
+      "name" : "TARGET_COUNT"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_sgYnEEmQEe66TqXgCEdArQ",
+    "parameterList" : [ {
+      "id" : "_BnF7EEmREe66TqXgCEdArQ",
+      "name" : "DB_ORACLE_HOST"
+    }, {
+      "id" : "_BnF7EkmREe66TqXgCEdArQ",
+      "name" : "DB_ORACLE_Database"
+    }, {
+      "id" : "_BnF7FUmREe66TqXgCEdArQ",
+      "name" : "DB_ORACLE_Password"
+    }, {
+      "id" : "_BnF7EUmREe66TqXgCEdArQ",
+      "name" : "DB_ORACLE_USERNAME"
+    }, {
+      "id" : "_BnF7FkmREe66TqXgCEdArQ",
+      "name" : "DB_SNOWFLAKE_Account"
+    }, {
+      "id" : "_BnF7FEmREe66TqXgCEdArQ",
+      "name" : "DB_ORACLE_Schema"
+    }, {
+      "id" : "_BnF7GEmREe66TqXgCEdArQ",
+      "name" : "DB_SNOWFLAKE_Database"
+    }, {
+      "id" : "_BnF7GkmREe66TqXgCEdArQ",
+      "name" : "DB_SNOWFLAKE_Schema"
+    }, {
+      "id" : "_BnF7GUmREe66TqXgCEdArQ",
+      "name" : "DB_SNOWFLAKE_Warehouse"
+    }, {
+      "id" : "_BnF7F0mREe66TqXgCEdArQ",
+      "name" : "DB_SNOWFLAKE_USERID"
+    }, {
+      "id" : "_BnF7G0mREe66TqXgCEdArQ",
+      "name" : "DB_SNOWFLAKE_Password"
+    }, {
+      "id" : "_BnF7E0mREe66TqXgCEdArQ",
+      "name" : "DB_ORACLE_PORT"
+    } ]
+  } ]
+}
