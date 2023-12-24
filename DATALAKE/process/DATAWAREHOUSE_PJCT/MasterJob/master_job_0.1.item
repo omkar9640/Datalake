@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Dev">
+  <context confirmationNeeded="false" hide="false" name="Dev">
     <contextParameter comment="" internalId="_rhGlMAM3Ee23isoxsQLAfQ" name="key_file_part" prompt="key_file_part?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_rhGlMQM3Ee23isoxsQLAfQ" name="key_folder_part" prompt="key_folder_part?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_ZPLUy1zCEe21AshdXU1kfg" name="parameterise_file_path" prompt="parameterise_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/Talend/DWH/context/context.txt&quot;"/>
@@ -24,18 +24,18 @@
     <contextParameter comment="" internalId="_FRpg542jEe6Ymd5FwNstpg" name="DB_SNOWFLAKE_STAGING_Schema" prompt="DB_SNOWFLAKE_STAGING_Schema?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="STAGING"/>
     <contextParameter comment="" internalId="_FRpg6I2jEe6Ymd5FwNstpg" name="DB_SNOWFLAKE_TARGET_Warehouse" prompt="DB_SNOWFLAKE_TARGET_Warehouse?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="COMPUTE_WH"/>
     <contextParameter comment="" internalId="_FRpg6Y2jEe6Ymd5FwNstpg" name="DB_SNOWFLAKE_STAGING_Warehouse" prompt="DB_SNOWFLAKE_STAGING_Warehouse?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="COMPUTE_WH"/>
-    <contextParameter comment="" internalId="_FRpg6o2jEe6Ymd5FwNstpg" name="aws_secretkey" prompt="aws_secretkey?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="RzixuRzZOCX1LuCBTSsmDThQzYe+yJoWcFdjNe4J"/>
+    <contextParameter comment="" internalId="_FRpg6o2jEe6Ymd5FwNstpg" name="aws_secretkey" prompt="aws_secretkey?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="8zK4GgJt07BlimSNUgdOAJwaI8pzevrWvoj1n0Fg"/>
     <contextParameter comment="" internalId="_FRpg642jEe6Ymd5FwNstpg" name="DB_SNOWFLAKE_STAGING_USERID" prompt="DB_SNOWFLAKE_STAGING_USERID?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="Bramhaiah"/>
-    <contextParameter comment="" internalId="_FRpg7I2jEe6Ymd5FwNstpg" name="aws_source_bucket" prompt="aws_source_bucket?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="dwhproject1"/>
+    <contextParameter comment="" internalId="_FRpg7I2jEe6Ymd5FwNstpg" name="aws_source_bucket" prompt="aws_source_bucket?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="realworldpjct"/>
     <contextParameter comment="" internalId="_FRpg7Y2jEe6Ymd5FwNstpg" name="DB_SNOWFLAKE_STAGING_Database" prompt="DB_SNOWFLAKE_STAGING_Database?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="SNOWFLAKE_DB"/>
     <contextParameter comment="" internalId="_FRpg7o2jEe6Ymd5FwNstpg" name="DB_SNOWFLAKE_STAGING_Password" prompt="DB_SNOWFLAKE_STAGING_Password?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="Talend@123"/>
     <contextParameter comment="" internalId="_FRpg742jEe6Ymd5FwNstpg" name="local_source_reject_folder" prompt="local_source_reject_folder?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="C:/Talend/DWH/Dev/reject"/>
     <contextParameter comment="" internalId="_FRpg8I2jEe6Ymd5FwNstpg" name="DB_SNOWFLAKE_TARGET_Account" prompt="DB_SNOWFLAKE_TARGET_Account?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="ftyjmjz-gc12192"/>
-    <contextParameter comment="" internalId="_FRpg8Y2jEe6Ymd5FwNstpg" name="aws_accesskey_id" prompt="aws_accesskey_id?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="AKIAXDGUM4OKFWZ67UXH"/>
+    <contextParameter comment="" internalId="_FRpg8Y2jEe6Ymd5FwNstpg" name="aws_accesskey_id" prompt="aws_accesskey_id?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="AKIARDRN5SNKJT3KBDKG"/>
     <contextParameter comment="" internalId="_FRpg8o2jEe6Ymd5FwNstpg" name="aws_source_key" prompt="aws_source_key?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="Upload_"/>
     <contextParameter comment="" internalId="_FRpg842jEe6Ymd5FwNstpg" name="DB_SNOWFLAKE_TARGET_USERID" prompt="DB_SNOWFLAKE_TARGET_USERID?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="Bramhaiah"/>
   </context>
-  <context confirmationNeeded="false" name="QA">
+  <context confirmationNeeded="false" hide="false" name="QA">
     <contextParameter comment="" internalId="_rhGlMAM3Ee23isoxsQLAfQ" name="key_file_part" prompt="key_file_part?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_rhGlMQM3Ee23isoxsQLAfQ" name="key_folder_part" prompt="key_folder_part?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_ZPLUy1zCEe21AshdXU1kfg" name="parameterise_file_path" prompt="parameterise_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/Talend/DWH/context/context.txt&quot;"/>
@@ -71,7 +71,7 @@
     <contextParameter comment="" internalId="_FRqIAo2jEe6Ymd5FwNstpg" name="aws_source_key" prompt="aws_source_key?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="Upload_"/>
     <contextParameter comment="" internalId="_FRqIA42jEe6Ymd5FwNstpg" name="DB_SNOWFLAKE_TARGET_USERID" prompt="DB_SNOWFLAKE_TARGET_USERID?" promptNeeded="false" repositoryContextId="_KdBgYI0xEe6Ymd5FwNstpg" type="id_String" value="Bramhaiah"/>
   </context>
-  <context confirmationNeeded="false" name="Production">
+  <context confirmationNeeded="false" hide="false" name="Production">
     <contextParameter comment="" internalId="_rhGlMAM3Ee23isoxsQLAfQ" name="key_file_part" prompt="key_file_part?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_rhGlMQM3Ee23isoxsQLAfQ" name="key_folder_part" prompt="key_folder_part?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_ZPLUy1zCEe21AshdXU1kfg" name="parameterise_file_path" prompt="parameterise_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/Talend/DWH/context/context.txt&quot;"/>
@@ -150,7 +150,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:um1NT74hqmDcLbdoFlTTM9Wl5cvTUWdt/yAn9146"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:GsSQfIYHHqBUUdUb819b8eADEmbr+FiNQ4M1C6i/"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -185,7 +185,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:rD9VrTizAlI6clXxaJhsoFfnqPYJZySqhS6q1qLb"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:oh5HzHuD3LxSwF2XeRPQKtwthD1JC3huz21klrsv"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -284,7 +284,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_5"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="384">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_6"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
@@ -310,11 +310,12 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_6"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="50" offsetLabelY="32" posX="896" posY="224">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="48" offsetLabelY="2" posX="992" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_7"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
@@ -340,6 +341,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_7"/>
@@ -370,6 +372,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_8"/>
@@ -400,6 +403,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_9"/>
@@ -430,6 +434,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_10"/>
@@ -457,6 +462,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_1"/>
@@ -484,6 +490,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_3"/>
@@ -511,6 +518,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_5"/>
@@ -547,9 +555,24 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_4"/>
+  </node>
+  <node componentName="Error_log" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="960">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Error_log_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="LABEL" value="Error_log"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tRunJob_5">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
@@ -679,13 +702,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_10efeac8-03f3-4ada-b496-b9d78053820f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Mfs45Yo3h7jp0d23OdK0Qg9Eh8E6SWGcUfAsiNi6wNiiSteChM3bz0Z2e4sxDBC45niLss08rdjl&#13;
-J6Q6Xejjeg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_00e99e59-3f18-4297-ad7f-fae2e914662a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jldv1uUHsquBpEL/789CBYb0FFQgNrr3PVzDSacvdxtlpTI5ZPYSR4LrNAGtlpz46vnD0OyAL1fx&#13;
-xCJE6JPL+A==</DigestValue></Reference></SignedInfo><SignatureValue>p3Y9EcAwQHi3TWIu3mg6+G+gVZ0rHexTzvE6GEePY1adjm0Pj6lHn8uX/awDLiS+EOHr720wnuwl&#13;
-eX9KS2PjiUa/9wzgr3zD+nRVj4fyTi5i2ShsHedLUaqdzS7i2+7u/QYdo27FErfChSbWg1JT9i6C&#13;
-+xlME7NO1m5/UspwJ2Nl7yK1YsO9BYk5YGhfpD1Y5UiAuNUHewpZ/sYNxlHmCjDSDSaeLFVXOLTW&#13;
-DPlFAq7ldFMO2XblAnyaWT73oX+NVO94QY+SvhH2Cyax5v/fkD7eOdnBZMuhLksKxXnpk19xmOFD&#13;
-NDJwLLw8rtdJ/E1XlfJT78Zc5Y+ciZMs5e4QJQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Error_log_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2f2fbf70-e2b2-49e8-99a5-363692d34f17"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NCeDG0kancOvesZdDOTVCfraEOATOsitTFPYJtFsb5MeBVqlPhOahlF1dZzdkwB3TZ3+dwdm0IGW&#13;
+XEhR1j+wAg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7f195dbc-76cd-460f-bc6f-1c21db3d2905"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ERt3AuLMKF+9fZJ4XEoLtnW+UlDokfTjDButs+lPWTzXzdBLpvICnglrVNX4ZOA1lEaCiUlggBKS&#13;
+NNdaml4B1A==</DigestValue></Reference></SignedInfo><SignatureValue>UGpKQc94yht9XaygjexhEcbtiXMbZ472Rkrt6El09QnmUGfNoSyWJ6aTI/sTaCjIxcrwtybhDuW1&#13;
+5KNMYtxdAR++693YDgN+fFnWri3JsnGfeHDBcnje1R1mw05Lh6QkF4bKVHndregJT3pfCDxu+KW+&#13;
+ID2XCyRv/o1/JehJgtf9iYDYsLRdZiZrO5zzFLpvHRzd+06KrwH6Xw7Mm2yFFvVO6b6/g3HEE360&#13;
+FTthVPOxNyltXCjW5joNbslyrFMm9s46OmHyhnj1II2Uoo+bpKzTCrbrr8q/BazApi/6CcGKHkbx&#13;
+q6LH/Hh8MFdVLs4CgbuV2Mhow2fSwWJOITQQvg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -707,4 +735,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_00e99e59-3f18-4297-ad7f-fae2e914662a" Target="#_10efeac8-03f3-4ada-b496-b9d78053820f"><Timestamp>2023-12-20 14:29:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7f195dbc-76cd-460f-bc6f-1c21db3d2905" Target="#_2f2fbf70-e2b2-49e8-99a5-363692d34f17"><Timestamp>2023-12-24 10:16:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

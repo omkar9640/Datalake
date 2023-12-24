@@ -365,6 +365,10 @@
     "id" : "TALEND_TRAINING:_rQkDcCgFEe2dANBfp3prIw",
     "version" : "Latest",
     "type" : "job"
+  }, {
+    "id" : "_UwpLoI05Ee6Ymd5FwNstpg",
+    "version" : "Latest",
+    "type" : "joblet"
   } ]
 }, {
   "baseItem" : {
