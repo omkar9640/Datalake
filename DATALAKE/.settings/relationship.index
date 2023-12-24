@@ -203,21 +203,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_ncGkYJwPEe6524UC8FzBMA",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_BqixwJwREe6524UC8FzBMA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_fY7GMJwREe6524UC8FzBMA - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_onoSUCgFEe2dANBfp3prIw",
     "version" : "0.1",
     "type" : "job"
