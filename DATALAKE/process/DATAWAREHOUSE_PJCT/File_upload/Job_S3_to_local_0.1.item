@@ -143,18 +143,18 @@
     <routinesParameter id="_oxbCkPdoEeysXOgoQM5eYA" name="TalendString"/>
     <routinesParameter id="_dlWd8EYpEe665Oich5SVoA" name="SQLike"/>
   </parameters>
-  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="224">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;S3Connection open successfully&quot;);&#10;&#10;System.out.println(&quot;upload file: &quot;+context.local_source_upload_folder);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
-  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="224">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;S3 connection failed&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
@@ -163,37 +163,37 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDie_1"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="224">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;S3Connection Failed&quot;);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
   </node>
-  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="672">
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="672">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;S3Connection closed successfully&quot;);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_3"/>
   </node>
-  <node componentName="tS3Close" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="672">
+  <node componentName="tS3Close" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Close_1"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_2"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="2" offsetLabelY="0" posX="768" posY="512">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="2" offsetLabelY="0" posX="832" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_6"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;File downloaded successfully to local with file name: &quot;+context.smart_key_file_part);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_6"/>
   </node>
-  <node componentName="tS3List" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="512">
+  <node componentName="tS3List" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3List_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_2"/>
@@ -230,14 +230,14 @@
     <elementParameter field="MEMO" name="POLICY" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="512">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_7"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;bucket name:&quot;+((String)globalMap.get(&quot;tS3List_1_CURRENT_BUCKET&quot;)));&#10;System.out.println(&quot;key:&quot;+((String)globalMap.get(&quot;tS3List_1_CURRENT_KEY&quot;)));&#10;&#10;/* Spliti the key into two part for exact file name as key having folder/Filename*/&#10;String[] part=((String)globalMap.get(&quot;tS3List_1_CURRENT_KEY&quot;)).split(&quot;/&quot;);&#10;context.smart_key_folder_part= part[0];&#10;context.smart_key_file_part= part[1];&#10;&#10;System.out.println(&quot;After spliting FolderName: &quot;+ context.smart_key_folder_part);&#10;System.out.println(&quot;After spliting FileName: &quot;+ context.smart_key_file_part);&#10; "/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_7"/>
   </node>
-  <node componentName="tS3Get" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="512">
+  <node componentName="tS3Get" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Get_2"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_2"/>
@@ -297,7 +297,7 @@
     <elementParameter field="CHECK" name="USE_TEMP_FILES_FOR_PARALLEL_DOWNLOAD" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="224">
+  <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Connection_2"/>
     <elementParameter field="CLOSED_LIST" name="CREDENTIAL_PROVIDER" value="STATIC_CREDENTIALS"/>
     <elementParameter field="FILE" name="PROFILE_PATH" show="false" value="&quot;&quot;"/>
@@ -372,11 +372,9 @@
   <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tS3Connection_2" offsetLabelX="0" offsetLabelY="0" source="tS3Connection_2" target="tJava_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError1"/>
   </connection>
-  <note opaque="true" posX="1024" posY="128" sizeHeight="64" sizeWidth="321" text="Making S3 connection"/>
-  <note opaque="true" posX="1024" posY="32" sizeHeight="64" sizeWidth="545" text="Loading the context to initialize the variable in context group"/>
-  <note opaque="true" posX="1024" posY="480" sizeHeight="64" sizeWidth="513" text="Downloading the file from S3 bucket to local directory"/>
-  <note opaque="true" posX="1024" posY="640" sizeHeight="64" sizeWidth="353" text="Closing the S3 connection"/>
-  <note opaque="true" posX="1024" posY="320" sizeHeight="64" sizeWidth="513" text="Placing the file into S3 bucket from local directory"/>
+  <note opaque="true" posX="960" posY="128" sizeHeight="64" sizeWidth="321" text="Making S3 connection"/>
+  <note opaque="true" posX="928" posY="320" sizeHeight="64" sizeWidth="513" text="Downloading the file from S3 bucket to local directory"/>
+  <note opaque="true" posX="928" posY="480" sizeHeight="64" sizeWidth="353" text="Closing the S3 connection"/>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
@@ -429,13 +427,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_af31509c-3df7-4912-9f13-b19c424d26e1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>76SDY/jnebhOI/Q24uypQfZKXJpXsUkbACuJwSLgRVXc1pZgZeJPgEaBw9KX9JEm7r+VV8B/ynEr&#13;
-shd+2o7XGw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_79df9629-55c0-455e-8e0a-b6e983b69e74"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sKEHEzahg0l0b1abs3ZRlEMtK4AcGm1Flfeq77wkyZxT2yM+Gi0AhEqy5qMAewxtR83j6gX1NiDh&#13;
-AtOsnA0N9g==</DigestValue></Reference></SignedInfo><SignatureValue>jPyaK3CKzdCS2lWWf1XFeUVeKi7y9ah2BHroUo0G6ro+R+MZ+8IN6GTtaMlxBi2KVwM5IqKHMlrY&#13;
-VMobIsFFpQpnwGyToUYP52un1VSic6DqULdsBKhp3g5REQhjjNlPhcnwZ3DIWVZLLXSLivCaGnlf&#13;
-1GZ4JgfLN+S7w17x977U8pE9Y/Tw37IXtrJIE2wpqkjZ+SeNNf7Jp1APTcpc0qG6VEBCXGm0BY05&#13;
-9BIUcVlLq3nCC6c7rGt5WdyaBxaECMZmTob9ti9vSlGxA5d0Vi5aSOaeleoOZhQw28ctmeY+yNGI&#13;
-0bzLNhkOtAE855p/6Sdfx+7qoO80wJ045NJOqQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_71ea1005-38ae-4d58-9486-3b54e1d5d979"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OgYHS5zqrPcczQkzeJOdvODtqdTcq9DMXU62v43xrIs816V4s0JsYwSsE8w82P+5jQQIJxfrlavO&#13;
+7CrOtqRK6A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_92974482-2993-46f3-ad7b-a47ad1a21b67"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7/aO1SRCVIdqbpCG/LfD1e4Trt/Ttm6RBXTQnU0FP0fpu5408hePuxf6YRGE+4Re60XwX3cw69CV&#13;
+NHfP2MPn0A==</DigestValue></Reference></SignedInfo><SignatureValue>Wa9CEwWoehcPA+CsDmPg++xCcOcHQh1YM3OThoOrRXNHMXwsM7H8JwM5MaqL8p4zx89EQ6GpGvej&#13;
+DflND9LfirxxScN4SMHXdqf78qliG41am6MxstTVPLiK3NwzptL0IBl839Gi1IFGQZmxPmIDfk6o&#13;
+W2K7MHzoKX6OAV8wCT+/4uJIspBxZ1Pxxsa0ivzh6goB20PBb1on7A36lWgw+1uS3jY+pSCPay9Y&#13;
+5zxcRrPe4VjM/BrRuNhMeOSI8lLl+hdUDEi8kUVz5W7yjlCik+Ymj3Qw5xi3MP6EWySV6Wn8oWkp&#13;
+8oI5O2TjmAkHjTzHI9e+EWuMBNiss8i+8r3uYg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -457,4 +455,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_79df9629-55c0-455e-8e0a-b6e983b69e74" Target="#_af31509c-3df7-4912-9f13-b19c424d26e1"><Timestamp>2023-12-24 10:17:07</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_92974482-2993-46f3-ad7b-a47ad1a21b67" Target="#_71ea1005-38ae-4d58-9486-3b54e1d5d979"><Timestamp>2023-12-25 06:20:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
