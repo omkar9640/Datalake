@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_1DUZEZl_Ee6Hm44c8fTekg" label="datalake" language="java" technicalLabel="DATALAKE" author="_1DUZEpl_Ee6Hm44c8fTekg" productVersion="Talend Cloud Data Management Platform-8.0.1.20231116_0906-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/omkar9640/Datalake.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_1DUZEZl_Ee6Hm44c8fTekg" label="datalake" language="java" technicalLabel="DATALAKE" author="_1DUZEpl_Ee6Hm44c8fTekg" productVersion="Talend Cloud Data Management Platform-8.0.1.20231219_0641-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/omkar9640/Talend_projects.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_1FHv4Jl_Ee6Hm44c8fTekg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_1DUZEpl_Ee6Hm44c8fTekg" login="omkarchintu111@trial50193.us.talend.com" firstName="talend" lastName="tech" type="DQ"/>
   <TalendProperties:User xmi:id="_Y4b_MJv4Ee631t2p4GDRmQ" login="azaruddinmohammad887@trial50193.us.talend.com" firstName="azar" lastName="mohammad" type="DQ"/>
   <TalendProperties:User xmi:id="_1JXpUKIoEe6EI7ANCIf7Ug" login="omkarchintu55@trial50568.us.talend.com" firstName="talend" lastName="tech" type="DQ"/>
   <TalendProperties:User xmi:id="_1JXpUaIoEe6EI7ANCIf7Ug" login="omkarchintu55@trial50568.us.talend.com" firstName="talend" lastName="tech" type="DQ"/>
+  <TalendProperties:User xmi:id="_m9CnMKPNEe6_gZqd_3AD-Q" login="talendtechrealtime@trial50577.us.talend.com" firstName="talend" lastName="tech" type="DQ"/>
+  <TalendProperties:User xmi:id="_m9CnMaPNEe6_gZqd_3AD-Q" login="talendtechrealtime@trial50577.us.talend.com" firstName="talend" lastName="tech" type="DQ"/>
 </xmi:XMI>
