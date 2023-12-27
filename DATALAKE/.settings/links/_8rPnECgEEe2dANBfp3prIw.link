@@ -1,0 +1,196 @@
+{
+  "itemId" : "_8rPnECgEEe2dANBfp3prIw",
+  "contextList" : [ {
+    "contextName" : "QA",
+    "repoId" : "_KdBgYI0xEe6Ymd5FwNstpg",
+    "parameterList" : [ {
+      "id" : "_KdwgRo0xEe6Ymd5FwNstpg",
+      "name" : "aws_accesskey_id"
+    }, {
+      "id" : "_KdwgR40xEe6Ymd5FwNstpg",
+      "name" : "aws_secretkey"
+    }, {
+      "id" : "_KdwgSI0xEe6Ymd5FwNstpg",
+      "name" : "local_source_upload_folder"
+    }, {
+      "id" : "_KdwgSY0xEe6Ymd5FwNstpg",
+      "name" : "local_source_output_folder"
+    }, {
+      "id" : "_KdwgSo0xEe6Ymd5FwNstpg",
+      "name" : "local_source_reject_folder"
+    }, {
+      "id" : "_KdwgS40xEe6Ymd5FwNstpg",
+      "name" : "aws_source_bucket"
+    }, {
+      "id" : "_KdwgTI0xEe6Ymd5FwNstpg",
+      "name" : "aws_source_key"
+    }, {
+      "id" : "_KdwgTY0xEe6Ymd5FwNstpg",
+      "name" : "file_mask"
+    }, {
+      "id" : "_KdwgTo0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Account"
+    }, {
+      "id" : "_KdwgT40xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_USERID"
+    }, {
+      "id" : "_KdwgUI0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Database"
+    }, {
+      "id" : "_KdwgUY0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Warehouse"
+    }, {
+      "id" : "_KdwgUo0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Schema"
+    }, {
+      "id" : "_KdwgU40xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Password"
+    }, {
+      "id" : "_KdwgVI0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Account"
+    }, {
+      "id" : "_KdwgVY0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_USERID"
+    }, {
+      "id" : "_KdwgVo0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Database"
+    }, {
+      "id" : "_KdwgV40xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Warehouse"
+    }, {
+      "id" : "_KdwgWI0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Schema"
+    }, {
+      "id" : "_KdwgWY0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Password"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_KdBgYI0xEe6Ymd5FwNstpg",
+    "parameterList" : [ {
+      "id" : "_KdwgMY0xEe6Ymd5FwNstpg",
+      "name" : "aws_accesskey_id"
+    }, {
+      "id" : "_KdwgMo0xEe6Ymd5FwNstpg",
+      "name" : "aws_secretkey"
+    }, {
+      "id" : "_KdwgM40xEe6Ymd5FwNstpg",
+      "name" : "local_source_upload_folder"
+    }, {
+      "id" : "_KdwgNI0xEe6Ymd5FwNstpg",
+      "name" : "local_source_output_folder"
+    }, {
+      "id" : "_KdwgNY0xEe6Ymd5FwNstpg",
+      "name" : "local_source_reject_folder"
+    }, {
+      "id" : "_KdwgNo0xEe6Ymd5FwNstpg",
+      "name" : "aws_source_bucket"
+    }, {
+      "id" : "_KdwgN40xEe6Ymd5FwNstpg",
+      "name" : "aws_source_key"
+    }, {
+      "id" : "_KdwgOI0xEe6Ymd5FwNstpg",
+      "name" : "file_mask"
+    }, {
+      "id" : "_KdwgOY0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Account"
+    }, {
+      "id" : "_KdwgOo0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_USERID"
+    }, {
+      "id" : "_KdwgO40xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Database"
+    }, {
+      "id" : "_KdwgPI0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Warehouse"
+    }, {
+      "id" : "_KdwgPY0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Schema"
+    }, {
+      "id" : "_KdwgPo0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Password"
+    }, {
+      "id" : "_KdwgP40xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Account"
+    }, {
+      "id" : "_KdwgQI0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_USERID"
+    }, {
+      "id" : "_KdwgQY0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Database"
+    }, {
+      "id" : "_KdwgQo0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Warehouse"
+    }, {
+      "id" : "_KdwgQ40xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Schema"
+    }, {
+      "id" : "_KdwgRI0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Password"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_KdBgYI0xEe6Ymd5FwNstpg",
+    "parameterList" : [ {
+      "id" : "_KdwgW40xEe6Ymd5FwNstpg",
+      "name" : "aws_accesskey_id"
+    }, {
+      "id" : "_KdwgXI0xEe6Ymd5FwNstpg",
+      "name" : "aws_secretkey"
+    }, {
+      "id" : "_KdwgXY0xEe6Ymd5FwNstpg",
+      "name" : "local_source_upload_folder"
+    }, {
+      "id" : "_KdwgXo0xEe6Ymd5FwNstpg",
+      "name" : "local_source_output_folder"
+    }, {
+      "id" : "_KdwgX40xEe6Ymd5FwNstpg",
+      "name" : "local_source_reject_folder"
+    }, {
+      "id" : "_KdwgYI0xEe6Ymd5FwNstpg",
+      "name" : "aws_source_bucket"
+    }, {
+      "id" : "_KdwgYY0xEe6Ymd5FwNstpg",
+      "name" : "aws_source_key"
+    }, {
+      "id" : "_KdwgYo0xEe6Ymd5FwNstpg",
+      "name" : "file_mask"
+    }, {
+      "id" : "_KdwgY40xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Account"
+    }, {
+      "id" : "_KdwgZI0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_USERID"
+    }, {
+      "id" : "_KdwgZY0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Database"
+    }, {
+      "id" : "_KdwgZo0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Warehouse"
+    }, {
+      "id" : "_KdwgZ40xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Schema"
+    }, {
+      "id" : "_KdwgaI0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_STAGING_Password"
+    }, {
+      "id" : "_KdwgaY0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Account"
+    }, {
+      "id" : "_Kdwgao0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_USERID"
+    }, {
+      "id" : "_Kdwga40xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Database"
+    }, {
+      "id" : "_KdwgbI0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Warehouse"
+    }, {
+      "id" : "_KdwgbY0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Schema"
+    }, {
+      "id" : "_Kdwgbo0xEe6Ymd5FwNstpg",
+      "name" : "DB_SNOWFLAKE_TARGET_Password"
+    } ]
+  } ]
+}
