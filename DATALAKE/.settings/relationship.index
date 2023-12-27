@@ -345,10 +345,6 @@
     "id" : "DATALAKE:_iQWXIKPkEe66nMRDcDwf5w",
     "version" : "Latest",
     "type" : "job"
-  }, {
-    "id" : "DATALAKE:_sX0GQKOrEe66nMRDcDwf5w",
-    "version" : "Latest",
-    "type" : "job"
   } ]
 }, {
   "baseItem" : {
