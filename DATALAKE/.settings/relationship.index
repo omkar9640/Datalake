@@ -305,49 +305,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_v0qDsKRzEe66nMRDcDwf5w",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_KdBgYI0xEe6Ymd5FwNstpg",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_W5lEUBKdEe2B_f1wtoJzjg",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "AUGUST_BATCH:_onoSUCgFEe2dANBfp3prIw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "BATCH_19TH_29062022:_GSw68CgFEe2dANBfp3prIw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "BATCH_19TH_29062022:_JgFykCgFEe2dANBfp3prIw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "BATCH_19TH_29062022:_O2TpUCgFEe2dANBfp3prIw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "BATCH_19TH_29062022:_RVJDQCgFEe2dANBfp3prIw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "DATALAKE:_iQWXIKPkEe66nMRDcDwf5w",
-    "version" : "Latest",
-    "type" : "job"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_vRz8wElXEe66TqXgCEdArQ",
     "version" : "0.1",
     "type" : "job"
