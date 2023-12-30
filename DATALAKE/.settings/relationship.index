@@ -24,6 +24,10 @@
     "id" : "_VIuBIEYvEe665Oich5SVoA - DATALAKE_STATUS",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_pxwpQOcaEe2LyME5484HqQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
