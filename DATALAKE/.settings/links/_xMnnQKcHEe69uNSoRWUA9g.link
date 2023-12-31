@@ -1,0 +1,29 @@
+{
+  "itemId" : "_xMnnQKcHEe69uNSoRWUA9g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "__r4tMKcHEe69uNSoRWUA9g",
+    "parameterList" : [ {
+      "id" : "__sVZIacHEe69uNSoRWUA9g",
+      "name" : "migration_postgres_Password"
+    }, {
+      "id" : "__sVZIqcHEe69uNSoRWUA9g",
+      "name" : "migration_postgres_Schema"
+    }, {
+      "id" : "__sVZI6cHEe69uNSoRWUA9g",
+      "name" : "migration_postgres_AdditionalParams"
+    }, {
+      "id" : "__sVZJKcHEe69uNSoRWUA9g",
+      "name" : "migration_postgres_Server"
+    }, {
+      "id" : "__sVZJacHEe69uNSoRWUA9g",
+      "name" : "migration_postgres_Port"
+    }, {
+      "id" : "__sVZJqcHEe69uNSoRWUA9g",
+      "name" : "migration_postgres_Database"
+    }, {
+      "id" : "__sVZJ6cHEe69uNSoRWUA9g",
+      "name" : "migration_postgres_Login"
+    } ]
+  } ]
+}
